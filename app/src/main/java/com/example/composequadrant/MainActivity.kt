@@ -22,7 +22,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.core.graphics.toColorInt
 import com.example.composequadrant.ui.theme.ComposeQuadrantTheme
 
 class MainActivity : ComponentActivity() {
@@ -89,7 +88,8 @@ fun Quadrants(
     Column(
         modifier = modifier
             .fillMaxSize()
-            //.padding(16.dp)
+            //.padding(16.dp) No me cuadra con la imagen que hay en el codelab aunque
+            // las instrucciones lo ponen
             .background(backColor),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
