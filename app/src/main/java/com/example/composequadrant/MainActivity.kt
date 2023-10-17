@@ -88,9 +88,8 @@ fun Quadrants(
     Column(
         modifier = modifier
             .fillMaxSize()
-            //.padding(16.dp) No me cuadra con la imagen que hay en el codelab aunque
-            // las instrucciones lo ponen
-            .background(backColor),
+            .background(backColor)
+            .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
 
